@@ -1,14 +1,14 @@
-import react from 'react'
+import Header from "./header/Header";
+import Navbar from "./navbar";
+import "./App.css";
 
-import './App.css'
-
-function App() {
-  
-
+const App = () => {
   return (
-   
-    
-  )
-}
+    <div>
+      <Header />
+      <Navbar />
+    </div>
+  );
+};
 
-export default App
+export default App;
