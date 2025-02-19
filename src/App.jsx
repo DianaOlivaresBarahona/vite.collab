@@ -1,7 +1,12 @@
-
+import React from "react";
 import Navbar from "./navbar";
 import "./App.css";
 import Footer from './Components/Footer'
+import React from 'react'
+import ContactForm from './form/form'
+
+
+
 
 
 const App = () => {
@@ -9,10 +14,10 @@ const App = () => {
     <div>
       <Header />
 <Navbar />
-
- <Footer /> 
-
     
+    <ContactForm/>
+     
+ <Footer />   
 
     </div>
   );
