@@ -1,10 +1,14 @@
-import React from "react";
+
 import Header from "./header/Header";
+import Navbar from "./navbar";
+import "./App.css";
+
 
 const App = () => {
   return (
     <div>
       <Header />
+     <Navbar />
     </div>
   );
 };
