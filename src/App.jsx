@@ -1,13 +1,16 @@
-import React from "react";
+
+import Header from "./header/Header";
 import Navbar from "./navbar";
 import "./App.css";
 
-function App() {
+
+const App = () => {
   return (
-    <>
-      <Navbar />
-    </>
+    <div>
+      <Header />
+     <Navbar />
+    </div>
   );
-}
+};
 
 export default App;
